@@ -1,4 +1,4 @@
-public class MyClass {
+class FizzBuzz {
     public static void main(String args[]) {
         String F="Fizz";      
         String B="Buzz";
