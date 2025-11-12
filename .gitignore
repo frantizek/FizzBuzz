@@ -1,0 +1,145 @@
+# ----------------------
+# General build outputs (common across IDEs)
+# ----------------------
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+*.pdb
+*.ilk
+*.tlog
+*.log
+
+# ----------------------
+# Visual Studio
+# ----------------------
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleasePublic/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.dbmdl
+*.opendb
+*.publishsettings
+orleans.codegen.cs
+
+## NuGet Packages
+*.nupkg
+*.snupkg
+**/.nuget/
+**/packages/
+project.lock.json
+project.fragment.lock.json
+
+## Visual Studio cache
+.vs/
+.vscode-test/<grok-card data-id="feebda" data-type="citation_card"></grok-card>
+
+# ----------------------
+# JetBrains (IntelliJ, CLion, Rider, etc.)
+# ----------------------
+.idea/
+*.iml
+*.idea_modules/
+out/
+!.idea/file.templateSettings.txt
+!.idea/runConfigurations/<grok-card data-id="c13f2a" data-type="citation_card"></grok-card>
+
+# ----------------------
+# Eclipse
+# ----------------------
+.metadata
+.classpath
+.project
+.settings/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.code-workspace
+
+# Built VS Code Extensions
+*.vsix<grok-card data-id="4a018a" data-type="citation_card"></grok-card>
+
+# ----------------------
+# Xcode
+# ----------------------
+## Build generated
+DerivedData/
+build/
+
+## User settings
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+## Other
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+.DS_Store
+AppleDouble
+LSOverride
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
